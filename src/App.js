@@ -1,20 +1,23 @@
-import image from './memoji.png'
+import memoji from './memoji.png'
 import github from './github.svg'
 import npm from './npm.svg'
 import linkedin from './linkedin.svg'
+import TitleScroller from './TitleScroller';
 import './App.css';
 
+const mainText = "I'm a Front End Developer that after a hard start with AngularJS 1.1 💔 fell in love with React 🥰"
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
         <p>Hello, I'm Simone 👋</p>
-        <img className='App-main-image' src={image} alt='cartoonized Simone'></img>
+        <img className='App-main-image' src={memoji} alt='cartoonized Simone'></img>
       </header>
 
       <main className='App-body'>
 
-        <p>I'm a Front End Developer that after a hard start with AngularJS 1.1 💔 fell in love with React 🥰</p>
+        <p>{mainText}</p>
 
         <div className='App-digital-me'>
           <p> Digital me ⤵️</p>
@@ -25,6 +28,7 @@ function App() {
           </div>
         </div>
       </main>
+      <TitleScroller text={mainText} />
     </div>
   );
 }
