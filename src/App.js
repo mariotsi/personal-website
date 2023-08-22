@@ -5,7 +5,7 @@ import linkedin from './linkedin.svg'
 import TitleScroller from './TitleScroller';
 import './App.css';
 
-const mainText = "I'm a Front End Developer that after a hard start with AngularJS 1.1 💔 fell in love with React 🥰"
+const mainText = "I'm a Front End Developer that after a rough start with AngularJS 1.1 💔 fell in love with React 🥰 and the whole Front End world."
 function App() {
 
   return (
