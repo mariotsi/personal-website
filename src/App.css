@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   padding: 10vh 10vw;
   text-align: center;
-  height: 80vh;
+  height: 100vh;
   background-color: #282c34;
 }
 
